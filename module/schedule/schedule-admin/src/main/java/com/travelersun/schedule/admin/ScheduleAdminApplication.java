@@ -1,0 +1,14 @@
+package com.travelersun.schedule.admin;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ScopedProxyMode;
+
+@SpringBootApplication
+public class ScheduleAdminApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ScheduleAdminApplication.class, args);
+	}
+}
