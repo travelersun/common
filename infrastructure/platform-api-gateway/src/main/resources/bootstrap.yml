@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+      host: 192.168.88.129
+      port: 5672
+      username: guest1
+      password: root
+      virtualHost: /
+  application:
+    name: gateway
+  cloud:
+    config:
+      uri: http://localhost:8888
+
