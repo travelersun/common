@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: monitoring
+  cloud:
+    config:
+      uri: http://localhost:8888
+turbine:
+  stream:
+    port: 8989
